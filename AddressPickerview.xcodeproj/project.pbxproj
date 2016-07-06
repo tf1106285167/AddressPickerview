@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		85C6FCEF1D2CAA4D0040835E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C6FCEE1D2CAA4D0040835E /* main.m */; };
 		85C6FCF21D2CAA4D0040835E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C6FCF11D2CAA4D0040835E /* AppDelegate.m */; };
-		85C6FCF51D2CAA4D0040835E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C6FCF41D2CAA4D0040835E /* ViewController.m */; };
 		85C6FCF81D2CAA4D0040835E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85C6FCF61D2CAA4D0040835E /* Main.storyboard */; };
 		85C6FCFA1D2CAA4D0040835E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85C6FCF91D2CAA4D0040835E /* Assets.xcassets */; };
 		85C6FCFD1D2CAA4D0040835E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85C6FCFB1D2CAA4D0040835E /* LaunchScreen.storyboard */; };
 		85C6FD081D2CAA4D0040835E /* AddressPickerviewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C6FD071D2CAA4D0040835E /* AddressPickerviewTests.m */; };
 		85C6FD131D2CAA4D0040835E /* AddressPickerviewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C6FD121D2CAA4D0040835E /* AddressPickerviewUITests.m */; };
+		85C6FD291D2CAA820040835E /* Address.plist in Resources */ = {isa = PBXBuildFile; fileRef = 85C6FD211D2CAA820040835E /* Address.plist */; };
+		85C6FD2A1D2CAA820040835E /* AddressPickView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C6FD231D2CAA820040835E /* AddressPickView.m */; };
+		85C6FD2B1D2CAA820040835E /* citys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 85C6FD241D2CAA820040835E /* citys.plist */; };
+		85C6FD2C1D2CAA820040835E /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C6FD261D2CAA820040835E /* UIViewExt.m */; };
+		85C6FD2D1D2CAA820040835E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C6FD281D2CAA820040835E /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +43,6 @@
 		85C6FCEE1D2CAA4D0040835E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		85C6FCF01D2CAA4D0040835E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		85C6FCF11D2CAA4D0040835E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		85C6FCF31D2CAA4D0040835E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		85C6FCF41D2CAA4D0040835E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		85C6FCF71D2CAA4D0040835E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		85C6FCF91D2CAA4D0040835E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		85C6FCFC1D2CAA4D0040835E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +53,14 @@
 		85C6FD0E1D2CAA4D0040835E /* AddressPickerviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddressPickerviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		85C6FD121D2CAA4D0040835E /* AddressPickerviewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddressPickerviewUITests.m; sourceTree = "<group>"; };
 		85C6FD141D2CAA4D0040835E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85C6FD211D2CAA820040835E /* Address.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Address.plist; sourceTree = "<group>"; };
+		85C6FD221D2CAA820040835E /* AddressPickView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressPickView.h; sourceTree = "<group>"; };
+		85C6FD231D2CAA820040835E /* AddressPickView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressPickView.m; sourceTree = "<group>"; };
+		85C6FD241D2CAA820040835E /* citys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = citys.plist; sourceTree = "<group>"; };
+		85C6FD251D2CAA820040835E /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
+		85C6FD261D2CAA820040835E /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
+		85C6FD271D2CAA820040835E /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		85C6FD281D2CAA820040835E /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +113,12 @@
 			children = (
 				85C6FCF01D2CAA4D0040835E /* AppDelegate.h */,
 				85C6FCF11D2CAA4D0040835E /* AppDelegate.m */,
-				85C6FCF31D2CAA4D0040835E /* ViewController.h */,
-				85C6FCF41D2CAA4D0040835E /* ViewController.m */,
+				85C6FD271D2CAA820040835E /* ViewController.h */,
+				85C6FD281D2CAA820040835E /* ViewController.m */,
 				85C6FCF61D2CAA4D0040835E /* Main.storyboard */,
+				85C6FD201D2CAA820040835E /* AddressPick */,
+				85C6FD251D2CAA820040835E /* UIViewExt.h */,
+				85C6FD261D2CAA820040835E /* UIViewExt.m */,
 				85C6FCF91D2CAA4D0040835E /* Assets.xcassets */,
 				85C6FCFB1D2CAA4D0040835E /* LaunchScreen.storyboard */,
 				85C6FCFE1D2CAA4D0040835E /* Info.plist */,
@@ -138,6 +151,17 @@
 				85C6FD141D2CAA4D0040835E /* Info.plist */,
 			);
 			path = AddressPickerviewUITests;
+			sourceTree = "<group>";
+		};
+		85C6FD201D2CAA820040835E /* AddressPick */ = {
+			isa = PBXGroup;
+			children = (
+				85C6FD211D2CAA820040835E /* Address.plist */,
+				85C6FD221D2CAA820040835E /* AddressPickView.h */,
+				85C6FD231D2CAA820040835E /* AddressPickView.m */,
+				85C6FD241D2CAA820040835E /* citys.plist */,
+			);
+			path = AddressPick;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,8 +271,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				85C6FCFD1D2CAA4D0040835E /* LaunchScreen.storyboard in Resources */,
+				85C6FD291D2CAA820040835E /* Address.plist in Resources */,
 				85C6FCFA1D2CAA4D0040835E /* Assets.xcassets in Resources */,
 				85C6FCF81D2CAA4D0040835E /* Main.storyboard in Resources */,
+				85C6FD2B1D2CAA820040835E /* citys.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,9 +299,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85C6FCF51D2CAA4D0040835E /* ViewController.m in Sources */,
+				85C6FD2C1D2CAA820040835E /* UIViewExt.m in Sources */,
 				85C6FCF21D2CAA4D0040835E /* AppDelegate.m in Sources */,
+				85C6FD2A1D2CAA820040835E /* AddressPickView.m in Sources */,
 				85C6FCEF1D2CAA4D0040835E /* main.m in Sources */,
+				85C6FD2D1D2CAA820040835E /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
